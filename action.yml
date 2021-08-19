@@ -31,6 +31,10 @@ inputs:
 outputs:
   browser_download_url:
     description: 'The publicly available URL of the asset.'
+  asset_id:
+    description: 'Id of the asset.'
+  asset_url:
+    description: 'Url of the asset.'
 runs:
   using: 'node12'
   main: 'dist/index.js'
