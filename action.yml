@@ -37,4 +37,4 @@ outputs:
     description: 'Url of the asset.'
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'src/main.ts'
